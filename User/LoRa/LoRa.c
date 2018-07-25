@@ -62,7 +62,7 @@ static void _LoRaAddressConfig(uint8_t address_H,uint8_t address_L,uint8_t chann
  *  @param length 字节数组的长度
  *
  */ 
-static void LoRaSendBytes(uint8_t length,uint8_t* p){
+ void LoRaSendBytes(uint8_t length,uint8_t* p){
     for( ; length > 0 ; length-- ){
         switch(*p){
         case 0x01:
@@ -128,7 +128,7 @@ _Bool LoRaSendData(DataPacket* packet){
  *  
  *
  */ 
-static void LoRaSendByte(uint8_t data){
+ void LoRaSendByte(uint8_t data){
     switch(data){
         case 0x01:
         case 0x04:

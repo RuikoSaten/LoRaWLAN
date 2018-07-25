@@ -180,6 +180,15 @@ int fgetc(FILE *f)
 		return (int)USART_ReceiveData(DEBUG_USARTx);
 }
 
+
+
+
+
+
+
+
+
+
     _Bool flag = 0;
     _Bool startFlag = 0;
 // 串口中断服务函数
@@ -189,6 +198,7 @@ void DEBUG_USART_IRQHandler(void)
 	if(USART_GetITStatus(DEBUG_USARTx,USART_IT_RXNE)!=RESET)
 	{		
 		ch = USART_ReceiveData(DEBUG_USARTx);
+
         if(flag == 0){
             if(startFlag == 1 && ch != 0x04 && ch != 0x1B){
                 //如果正在接收并且当前字符不是帧结束符也不是转义符，那么直接接收
