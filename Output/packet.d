@@ -1,0 +1,16 @@
+..\..\output\packet.o: ..\..\Management\packet.c
+..\..\output\packet.o: ..\..\Management\packet.h
+..\..\output\packet.o: ..\..\User\usart\bsp_usart.h
+..\..\output\packet.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\packet.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\output\packet.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\packet.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\output\packet.o: ..\..\User\stm32f10x_conf.h
+..\..\output\packet.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\output\packet.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\packet.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\output\packet.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\output\packet.o: ..\..\Libraries\FWlib\inc\misc.h
+..\..\output\packet.o: E:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\packet.o: E:\keil\ARM\ARMCC\Bin\..\include\String.h
+..\..\output\packet.o: E:\keil\ARM\ARMCC\Bin\..\include\stdlib.h

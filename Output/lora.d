@@ -1,0 +1,17 @@
+..\..\output\lora.o: ..\..\User\LoRa\LoRa.c
+..\..\output\lora.o: ..\..\User\LoRa\LoRa.h
+..\..\output\lora.o: ..\..\User\usart\bsp_usart.h
+..\..\output\lora.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\lora.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\output\lora.o: E:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\lora.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\output\lora.o: ..\..\User\stm32f10x_conf.h
+..\..\output\lora.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\output\lora.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\lora.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\output\lora.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\output\lora.o: ..\..\Libraries\FWlib\inc\misc.h
+..\..\output\lora.o: E:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\lora.o: ..\..\Management\packet.h
+..\..\output\lora.o: E:\keil\ARM\ARMCC\Bin\..\include\String.h
+..\..\output\lora.o: E:\keil\ARM\ARMCC\Bin\..\include\stdlib.h
